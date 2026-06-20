@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-fjord-dark: #0E1726;
+  --color-fjord-navy: #152238;
+  --color-fjord-navy-light: #1E2D4A;
+  --color-fjord-gold: #E8A33D;
+  --color-fjord-teal: #5CB8B2;
+  --color-fjord-light: #EDEFF2;
+  --color-fjord-gray: #94A3B8;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom scrollbar for deep Nordic aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0E1726;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E2D4A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5CB8B2;
+}
+
+body {
+  background-color: #0E1726;
+  color: #EDEFF2;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Lær Norsk",
+  "description": "An interactive Norwegian language learning application with vocabulary, grammar, pronunciation, compound words, and gamified progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
